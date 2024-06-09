@@ -179,14 +179,14 @@ img_resize: default
 # 代码段高亮样式，markdown 语法 `demo`
 code:
   theme: dark-red
-# 支持主题：
+# 支持主题：dark-red
 # dark-red: 红字(默认)
 # github: github样式（灰色底，黑字）
 
 highlight:
   on: true # true开启代码高亮，开启需要关闭博客 _config.yml 中的 highlight
   lineNum: false # true显示行号
-  copy: true # 复制功能
+  copy: false # 复制功能
   theme: atom-light
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
 # 支持主题：
